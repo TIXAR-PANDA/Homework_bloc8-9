@@ -3,7 +3,6 @@
 
 def apply_all_func(int_list, *functions):
     """
-
     :param int_list:список из чисел (int, float)
     :param functions: неограниченное кол-во функций, которые применимы к спискам, состоящим из чисел
     :return:словарь, где ключом будет название вызванной функции,
