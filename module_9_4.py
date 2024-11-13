@@ -8,7 +8,7 @@ rezult = map(lambda x,y: x == y, first, second)
 print (list(rezult))
 
 # Замыкание:
-import random
+
 def get_advanced_writer(file_name):
     def write_everything(*data_set):
         with open(file_name, 'a', encoding='utf8') as file:
